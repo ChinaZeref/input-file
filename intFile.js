@@ -47,14 +47,4 @@
 		});
 		return this;
 	}
-	var hintInit = {
-		title: '', // 提示文字
-	}
-	$.fn.hint = function(){
-		var option = $.extend({},hintInit,option);
-		this.on('click',function(){
-			console.log(option);
-		});
-		return this;
-	}
 })(jQuery);
